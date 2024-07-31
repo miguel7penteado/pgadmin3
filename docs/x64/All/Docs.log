@@ -1,9 +1,8 @@
 ﻿  Calling help build script...
   [01mRunning Sphinx v7.4.7[39;49;00m
   [01mloading translations [en]... [39;49;00mdone
+  [01mmaking output directory... [39;49;00mdone
   Converting `source_suffix = '.rst'` to `source_suffix = {'.rst': 'restructuredtext'}`.
-  [01mloading pickled environment... [39;49;00mfailed: source directory has changed
-  done
   [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
   [01mwriting output... [39;49;00m
   [01mbuilding [htmlhelp]: [39;49;00mtargets for 54 source files that are out of date
@@ -75,8 +74,8 @@
   [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\connect-error.rst:20: WARNING: image file not readable: imagesnot-running.png[39;49;00m
   [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\connect-error.rst:43: WARNING: image file not readable: imagesno-hba.png[39;49;00m
   [31mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\debugger.rst:17: ERROR: Unknown target name: "pgfoundry <http:\pgfoundry.orgprojectsedb-debugger>".[39;49;00m
-  [01mlooking for now-outdated files... [39;49;00mnone found
   [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\debugger.rst:8: WARNING: image file not readable: imagesdebugger.png[39;49;00m
+  [01mlooking for now-outdated files... [39;49;00mnone found
   [01mpickling environment... [39;49;00mdone
   [01mchecking consistency... [39;49;00mdone
   [01mpreparing documents... [39;49;00mdone
@@ -222,7 +221,7 @@
   
   
   
-  Compile time: 0 minutes, 3 seconds
+  Compile time: 0 minutes, 4 seconds
   
   175	Topics
   

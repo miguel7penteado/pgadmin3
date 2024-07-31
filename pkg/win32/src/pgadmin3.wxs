@@ -38,7 +38,7 @@
 		<Directory Id="TARGETDIR"              Name="SourceDir">
 
 			<!-- Diretório da Aplicação-->
-			<Directory Id="ProgramFilesFolder" Name="PFiles">
+			<Directory Id="ProgramFiles64Folder" Name="PFiles">
 				<Directory Id="BASEDIR"        Name="$(var.APPNAME)">
 					<Directory Id="VersionDir" Name="$(var.APPVERSION)">
 
@@ -51,22 +51,22 @@
 							<File Id="bibliotecas_externas.postgres_libxml2_2"                 Name="libxml2-2.dll"                     DiskId="1" Source="$(var.PGDIREXP)\bin\libxml2-2.dll" />
 							<File Id="bibliotecas_externas.postgres_libxslt"                   Name="libxslt.dll"                       DiskId="1" Source="$(var.PGDIREXP)\bin\libxslt.dll" />
 							<File Id="bibliotecas_externas.postgres_libssl_3"                  Name="libssl-3-x64.dll"                  DiskId="1" Source="$(var.PGDIREXP)\bin\libssl-3-x64.dll" />
-							<File Id="bibliotecas_externas.OpenSSH_libssh_2"                   Name="libssh2.dll"                       DiskId="1" Source="$(var.LIBSSH2DIR)\bin\libssh2.dll" />
-							<File Id="bibliotecas_externas.wxbase325ud_net_vc_x64_custom.dll"  Name="wxbase325ud_net_vc_x64_custom.dll" DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxbase325ud_net_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxbase325ud_vc_x64_custom.dll"      Name="wxbase325ud_vc_x64_custom.dll"     DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxbase325ud_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxbase325ud_xml_vc_x64_custom.dll"  Name="wxbase325ud_xml_vc_x64_custom.dll" DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxbase325ud_xml_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxmsw325ud_adv_vc_x64_custom.dll"   Name="wxmsw325ud_adv_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxmsw325ud_adv_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxmsw325ud_aui_vc_x64_custom.dll"   Name="wxmsw325ud_aui_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxmsw325ud_aui_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxmsw325ud_core_vc_x64_custom.dll"  Name="wxmsw325ud_core_vc_x64_custom.dll" DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxmsw325ud_core_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxmsw325ud_html_vc_x64_custom.dll"  Name="wxmsw325ud_html_vc_x64_custom.dll" DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxmsw325ud_html_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxmsw325ud_stc_vc_x64_custom.dll"   Name="wxmsw325ud_stc_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxmsw325ud_stc_vc_x64_custom.dll" DefaultLanguage="0" />
-							<File Id="bibliotecas_externas.wxmsw325ud_xrc_vc_x64_custom.dll"   Name="wxmsw325ud_xrc_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXDIR)\lib\vc_x64_dll\wxmsw325ud_xrc_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.OpenSSH_libssh_2"                   Name="libssh2.dll"                       DiskId="1" Source="$(var.LIBSSH2DIREXP)\bin\libssh2.dll" />
+							<File Id="bibliotecas_externas.wxbase325ud_net_vc_x64_custom.dll"  Name="wxbase325ud_net_vc_x64_custom.dll" DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxbase325ud_net_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxbase325ud_vc_x64_custom.dll"      Name="wxbase325ud_vc_x64_custom.dll"     DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxbase325ud_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxbase325ud_xml_vc_x64_custom.dll"  Name="wxbase325ud_xml_vc_x64_custom.dll" DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxbase325ud_xml_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxmsw325ud_adv_vc_x64_custom.dll"   Name="wxmsw325ud_adv_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxmsw325ud_adv_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxmsw325ud_aui_vc_x64_custom.dll"   Name="wxmsw325ud_aui_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxmsw325ud_aui_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxmsw325ud_core_vc_x64_custom.dll"  Name="wxmsw325ud_core_vc_x64_custom.dll" DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxmsw325ud_core_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxmsw325ud_html_vc_x64_custom.dll"  Name="wxmsw325ud_html_vc_x64_custom.dll" DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxmsw325ud_html_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxmsw325ud_stc_vc_x64_custom.dll"   Name="wxmsw325ud_stc_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxmsw325ud_stc_vc_x64_custom.dll" DefaultLanguage="0" />
+							<File Id="bibliotecas_externas.wxmsw325ud_xrc_vc_x64_custom.dll"   Name="wxmsw325ud_xrc_vc_x64_custom.dll"  DiskId="1" Source="$(var.WXWINEXP)\lib\vc_x64_dll\wxmsw325ud_xrc_vc_x64_custom.dll" DefaultLanguage="0" />
 						</Component>
 
-						<Merge     Id="CRT" Language="0" SourceFile="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Redist\MSVC\14.40.33807\MergeModules\Microsoft_VC143_CRT_x64.msm&gt;" DiskId="1" />
+						<Merge     Id="CRT" Language="0" SourceFile="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Redist\MSVC\14.40.33807\MergeModules\Microsoft_VC143_CRT_x64.msm" DiskId="1" />
 
 						<Component Id="pgadmin_exes" Guid="{BF43AEEF-6391-4151-8A86-8D923D1C9EDB}">
-							<File Id="pgadmin_exes.pgadmin3.exe" Name="pgadmin3.exe" DiskId="1" Source="$(var.BUILDTREE)/pgadmin/Debug/pgAdmin3.exe" KeyPath="yes" />
+							<File Id="pgadmin_exes.pgadmin3.exe" Name="pgadmin3.exe" DiskId="1" Source="$(var.BUILDTREE)\pgadmin\Debug\pgAdmin3.exe" KeyPath="yes" />
 							<Shortcut Id="pgadmin_exes.pgadmin3.exe" Directory="SMDir" Name="$(var.APPNAME)" Description="$(var.APPNAME) - $(var.APPCOMMENTS)" Show="normal" Advertise="yes" Icon="pgadmin3.ico">
 								<?if $(var.BRANDED) = 1 ?>
 								<Icon Id="pgadmin3.ico" SourceFile="$(var.BRANDINGDIR)\icon.ico" />
@@ -76,7 +76,7 @@
 							</Shortcut>
 							<ProgId Id="pgAdmin.1" Icon="pgadmin_exes.pgadmin3.exe" IconIndex="1">
 								<Extension ContentType="text/plain" Id="sql">
-									<Verb Id="open" Command="Open" TargetFile="pgadmin_exes.pgadmin3.exe" Argument="-q -f &quot;%1&quot;" />
+									<Verb Id="open" Command="Open" TargetFile="pgadmin_exes.pgadmin3.exe" Argument="-q -f %1" />
 								</Extension>
 							</ProgId>
 						</Component>

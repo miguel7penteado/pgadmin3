@@ -55,12 +55,12 @@ if (%3)==() GOTO ERR_USAGE
 echo.
 echo Building %APPNAME% Installer...
 
-"%WIX%\bin\candle"  ^
--dLIBSSH2DIR="%LIBSSH2DIR%" ^
--dWXDIR="%WXWIN%" ^
+"%WIX%\bin\candle" -arch x64 ^
+-dPGDIREXP="%PGDIREXP%" ^
+-dLIBSSH2DIREXP="%LIBSSH2DIREXP%" ^
+-dWXWINEXP="%WXWINEXP%" ^
 -dPLATFORM_TOOLSET_VERSION=%2 ^
 -dVC_TOOLS_REDIST_INSTALL_DIR=%3 ^
--dPGDIREXP="%PGDIREXP%" ^
 -dBUILDTREE="%BUILDTREE%" ^
 -dBRANDED=%BRANDED% ^
 -dBRANDINGDIR="%BRANDINGDIR%" ^
@@ -71,11 +71,11 @@ echo Building %APPNAME% Installer...
 -dAPPDESCRIPTION="%APPDESCRIPTION%" ^
 -dAPPVERSION="%1" ^
 -dSYSTEM32DIR="%SystemRoot%\System32" ^
--dPFILESDIR="%ProgramFiles%" ^
+-dPFILESDIREXP="%ProgramFilesEXP%" ^
 src\pgadmin3.wxs
 IF ERRORLEVEL 1 GOTO ERR_HANDLER
 
-"%WIX%\bin\light" -sice:ICE03 -sice:ICE25 -sice:ICE82 -sw1101 -nologo -ext WixUIExtension -cultures:en-us pgadmin3.wixobj
+"%WIX%\bin\light" -sice:ICE03 -sice:ICE25 -sice:ICE82 -sw1101 -ext WixUIExtension -cultures:en-us pgadmin3.wixobj
 IF ERRORLEVEL 1 GOTO ERR_HANDLER
 
 echo.

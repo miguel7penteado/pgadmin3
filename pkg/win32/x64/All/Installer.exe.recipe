@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>C:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\x64\All\Docs.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\xtra\png2c\Debug\png2c.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
