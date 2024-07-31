@@ -1,0 +1,715 @@
+Windows Installer XML Toolset Compiler version 3.11.2.4516
+Copyright (c) .NET Foundation and contributors. All rights reserved.
+
+pgadmin3.wxs
+<?xml version="1.0" encoding="ibm850"?>
+<?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*2?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*15?>
+  <Product Manufacturer="Miguel Suez Xve Penteado - POLI BIG DATA LAB - USP Brazil" Id="{8810DE7E-AE2D-4F73-8E2C-B28AAD834712}" UpgradeCode="{64C9CE21-FE24-40B4-B18E-EA80A496E97F}" Name="pgAdmin III 3.0.0.0" Version="3.0.0.0" Language="1033">
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*27?>
+    <Package Keywords="PostgreSQL, pgAdmin" Comments="PostgreSQL Tools" Manufacturer="Miguel Suez Xve Penteado - POLI BIG DATA LAB - USP Brazil" InstallerVersion="405" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*38?>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*41?>
+      <Directory Id="ProgramFilesFolder" Name="PFiles">
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*42?>
+        <Directory Id="BASEDIR" Name="pgAdmin III">
+          <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*43?>
+          <Directory Id="VersionDir" Name="3.0.0.0">
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*45?>
+            <Component Id="bibliotecas_externas" Guid="{1027792A-FE64-445B-A28B-8D0169832F8D}">
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*46?>
+              <File Id="bibliotecas_externas.postgres_libcrypto_3" Name="libcrypto-3-x64.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libcrypto-3-x64.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*47?>
+              <File Id="bibliotecas_externas.postgres_libintl_9" Name="libintl-9.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libintl-9.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*48?>
+              <File Id="bibliotecas_externas.postgres_libpq" Name="libpq.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libpq.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*49?>
+              <File Id="bibliotecas_externas.postgres_libiconv_2" Name="libiconv-2.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libiconv-2.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*50?>
+              <File Id="bibliotecas_externas.postgres_libxml2" Name="libxml2.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libxml2.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*51?>
+              <File Id="bibliotecas_externas.postgres_libxml2_2" Name="libxml2-2.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libxml2-2.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*52?>
+              <File Id="bibliotecas_externas.postgres_libxslt" Name="libxslt.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libxslt.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*53?>
+              <File Id="bibliotecas_externas.postgres_libssl_3" Name="libssl-3-x64.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\libssl-3-x64.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*54?>
+              <File Id="bibliotecas_externas.OpenSSH_libssh_2" Name="libssh2.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/libssh2/libssh2-1.11.0\bin\libssh2.dll" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*55?>
+              <File Id="bibliotecas_externas.wxbase325ud_net_vc_x64_custom.dll" Name="wxbase325ud_net_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxbase325ud_net_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*56?>
+              <File Id="bibliotecas_externas.wxbase325ud_vc_x64_custom.dll" Name="wxbase325ud_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxbase325ud_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*57?>
+              <File Id="bibliotecas_externas.wxbase325ud_xml_vc_x64_custom.dll" Name="wxbase325ud_xml_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxbase325ud_xml_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*58?>
+              <File Id="bibliotecas_externas.wxmsw325ud_adv_vc_x64_custom.dll" Name="wxmsw325ud_adv_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxmsw325ud_adv_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*59?>
+              <File Id="bibliotecas_externas.wxmsw325ud_aui_vc_x64_custom.dll" Name="wxmsw325ud_aui_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxmsw325ud_aui_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*60?>
+              <File Id="bibliotecas_externas.wxmsw325ud_core_vc_x64_custom.dll" Name="wxmsw325ud_core_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxmsw325ud_core_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*61?>
+              <File Id="bibliotecas_externas.wxmsw325ud_html_vc_x64_custom.dll" Name="wxmsw325ud_html_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxmsw325ud_html_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*62?>
+              <File Id="bibliotecas_externas.wxmsw325ud_stc_vc_x64_custom.dll" Name="wxmsw325ud_stc_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxmsw325ud_stc_vc_x64_custom.dll" DefaultLanguage="0" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*63?>
+              <File Id="bibliotecas_externas.wxmsw325ud_xrc_vc_x64_custom.dll" Name="wxmsw325ud_xrc_vc_x64_custom.dll" DiskId="1" Source="C:/Users/COMPUTADOR1/Downloads/wxwidgets/1\lib\vc_x64_dll\wxmsw325ud_xrc_vc_x64_custom.dll" DefaultLanguage="0" />
+            </Component>
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*66?>
+            <Merge Id="CRT" Language="0" SourceFile="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Redist\MSVC\14.40.33807\MergeModules\Microsoft_VC143_CRT_x64.msm&gt;" DiskId="1" />
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*68?>
+            <Component Id="pgadmin_exes" Guid="{BF43AEEF-6391-4151-8A86-8D923D1C9EDB}">
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*69?>
+              <File Id="pgadmin_exes.pgadmin3.exe" Name="pgadmin3.exe" DiskId="1" Source="../../pgadmin/Debug/pgAdmin3.exe" KeyPath="yes" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*70?>
+              <Shortcut Id="pgadmin_exes.pgadmin3.exe" Directory="SMDir" Name="pgAdmin III" Description="pgAdmin III - PostgreSQL Tools" Show="normal" Advertise="yes" Icon="pgadmin3.ico">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*74?>
+                <Icon Id="pgadmin3.ico" SourceFile="../..\pgadmin\include\images\pgAdmin3.ico" />
+              </Shortcut>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*77?>
+              <ProgId Id="pgAdmin.1" Icon="pgadmin_exes.pgadmin3.exe" IconIndex="1">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*78?>
+                <Extension ContentType="text/plain" Id="sql">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*79?>
+                  <Verb Id="open" Command="Open" TargetFile="pgadmin_exes.pgadmin3.exe" Argument="-q -f &quot;%1&quot;" />
+                </Extension>
+              </ProgId>
+            </Component>
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*84?>
+            <Component Id="inis" Guid="{B9A54312-7E99-4123-B7C6-91D229926F35}">
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*85?>
+              <File Id="inis.settings.ini" Name="settings.ini" DiskId="1" Source="../..\pgadmin\settings.ini" />
+            </Component>
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*88?>
+            <Directory Id="PluginsDir" Name="plugins.d">
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*89?>
+              <Component Id="plugins.d" Guid="{11CBBD91-63E2-4691-A8EB-08E1913308C6}">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*90?>
+                <File Id="plugins.d.plugins.ini" Name="plugins.ini" DiskId="1" Source="../..\plugins.d\plugins.ini" />
+              </Component>
+            </Directory>
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*106?>
+            <Directory Id="DocsDir" Name="Docs">
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*107?>
+              <Directory Id="en_usDocsDir" Name="en_US">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*108?>
+                <Component Id="en_us_docs" Guid="{F06052A8-7B8B-44F4-ACB6-B39A111CBD6C}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*109?>
+                  <File Id="en_us_docs.pgadmin3.chm" Name="pgadmin3.chm" DiskId="1" Source="../..\docs\en_US\_build\htmlhelp\pgadmin3.chm" KeyPath="yes" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*110?>
+                  <Shortcut Id="en_us_docs.pgadmin3.chm" Directory="SMDir" Name="Documentation (English)" Description="pgAdmin documentation (English)" Show="normal" Advertise="yes" Icon="en_us_help.ico">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*111?>
+                    <Icon Id="en_us_help.ico" SourceFile="Resources\help.ico" />
+                  </Shortcut>
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*113?>
+                  <File Id="en_us_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\en_US\pgadmin3.css" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*115?>
+                <Directory Id="en_usHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*116?>
+                  <Component Id="en_us_hints" Guid="{6B6154A8-34F2-42CB-B540-CDEF65035754}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*117?>
+                    <File Id="en_us_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\en_US\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*118?>
+                    <File Id="en_us_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\en_US\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*119?>
+                    <File Id="en_us_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\en_US\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*120?>
+                    <File Id="en_us_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\en_US\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*121?>
+                    <File Id="en_us_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\en_US\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*122?>
+                    <File Id="en_us_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\en_US\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*123?>
+                    <File Id="en_us_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\en_US\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*124?>
+                    <File Id="en_us_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\en_US\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*125?>
+                    <File Id="en_us_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\en_US\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*126?>
+                    <File Id="en_us_hints.object_editing.html" Name="object-editing.html" DiskId="1" Source="../..\docs\en_US\hints\object-editing.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*127?>
+                    <File Id="en_us_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\en_US\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*128?>
+                    <File Id="en_us_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\en_US\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*129?>
+                    <File Id="en_us_hints.vacuum_full.html" Name="vacuum-full.html" DiskId="1" Source="../..\docs\en_US\hints\vacuum-full.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*130?>
+                    <File Id="en_us_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\en_US\hints\view-without-pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*131?>
+                    <File Id="en_us_hints.saving_passwords.html" Name="saving-passwords.html" DiskId="1" Source="../..\docs\en_US\hints\saving-passwords.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*135?>
+              <Directory Id="cs_czDocsDir" Name="cs_CZ">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*136?>
+                <Component Id="cs_cz_docs" Guid="{D0D1F93F-E19F-4091-8EDF-BA1C63EB5B43}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*137?>
+                  <File Id="cs_cz_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\cs_CZ\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*139?>
+                <Directory Id="cs_czHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*140?>
+                  <Component Id="cs_cz_hints" Guid="{3E7121F6-0142-44A2-A1D0-0BA3E4FF9344}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*141?>
+                    <File Id="cs_cz_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\cs_CZ\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*142?>
+                    <File Id="cs_cz_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\cs_CZ\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*143?>
+                    <File Id="cs_cz_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\cs_CZ\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*144?>
+                    <File Id="cs_cz_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\cs_CZ\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*145?>
+                    <File Id="cs_cz_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\cs_CZ\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*146?>
+                    <File Id="cs_cz_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\cs_CZ\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*147?>
+                    <File Id="cs_cz_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\cs_CZ\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*148?>
+                    <File Id="cs_cz_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\cs_CZ\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*149?>
+                    <File Id="cs_cz_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\cs_CZ\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*150?>
+                    <File Id="cs_cz_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\cs_CZ\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*151?>
+                    <File Id="cs_cz_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\cs_CZ\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*152?>
+                    <File Id="cs_cz_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\cs_CZ\hints\view-without-pk.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*156?>
+              <Directory Id="de_deDocsDir" Name="de_DE">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*157?>
+                <Component Id="de_de_docs" Guid="{5068F9C8-311A-44FE-A184-A67F61D470C0}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*158?>
+                  <File Id="de_de_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\de_DE\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*160?>
+                <Directory Id="de_deHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*161?>
+                  <Component Id="de_de_hints" Guid="{F3EFA768-8AE2-409A-A01E-7DEC86439A2E}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*162?>
+                    <File Id="de_de_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\de_DE\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*163?>
+                    <File Id="de_de_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\de_DE\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*164?>
+                    <File Id="de_de_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\de_DE\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*165?>
+                    <File Id="de_de_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\de_DE\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*166?>
+                    <File Id="de_de_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\de_DE\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*167?>
+                    <File Id="de_de_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\de_DE\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*168?>
+                    <File Id="de_de_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\de_DE\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*169?>
+                    <File Id="de_de_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\de_DE\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*170?>
+                    <File Id="de_de_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\de_DE\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*171?>
+                    <File Id="de_de_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\de_DE\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*172?>
+                    <File Id="de_de_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\de_DE\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*173?>
+                    <File Id="de_de_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\de_DE\hints\view-without-pk.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*177?>
+              <Directory Id="es_esDocsDir" Name="es_ES">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*178?>
+                <Component Id="es_es_docs" Guid="{16F54E96-3FD3-47A4-B048-B80E9AA5BF97}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*179?>
+                  <File Id="es_es_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\es_ES\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*181?>
+                <Directory Id="es_esHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*182?>
+                  <Component Id="es_es_hints" Guid="{C949645A-A0D9-42CF-B321-DA82E73F11AC}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*183?>
+                    <File Id="es_es_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\es_ES\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*184?>
+                    <File Id="es_es_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\es_ES\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*185?>
+                    <File Id="es_es_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\es_ES\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*186?>
+                    <File Id="es_es_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\es_ES\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*187?>
+                    <File Id="es_es_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\es_ES\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*188?>
+                    <File Id="es_es_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\es_ES\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*189?>
+                    <File Id="es_es_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\es_ES\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*190?>
+                    <File Id="es_es_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\es_ES\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*191?>
+                    <File Id="es_es_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\es_ES\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*192?>
+                    <File Id="es_ss_hints.object_editing.html" Name="object-editing.html" DiskId="1" Source="../..\docs\es_ES\hints\object-editing.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*193?>
+                    <File Id="es_es_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\es_ES\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*194?>
+                    <File Id="es_es_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\es_ES\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*195?>
+                    <File Id="es_es_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\es_ES\hints\view-without-pk.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*199?>
+              <Directory Id="fi_fiDocsDir" Name="fi_FI">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*200?>
+                <Component Id="fi_fi_docs" Guid="{F4845AFE-017C-4DDD-8F8D-BA6FB531588B}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*201?>
+                  <File Id="fi_fi_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\fi_FI\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*203?>
+                <Directory Id="fi_fiHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*204?>
+                  <Component Id="fi_fi_hints" Guid="{5FB1EF3C-D1ED-4B07-8BEB-3F284968B46E}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*205?>
+                    <File Id="fi_fi_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\fi_FI\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*206?>
+                    <File Id="fi_fi_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\fi_FI\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*207?>
+                    <File Id="fi_fi_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\fi_FI\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*208?>
+                    <File Id="fi_fi_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\fi_FI\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*209?>
+                    <File Id="fi_fi_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\fi_FI\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*210?>
+                    <File Id="fi_fi_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\fi_FI\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*211?>
+                    <File Id="fi_fi_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\fi_FI\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*212?>
+                    <File Id="fi_fi_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\fi_FI\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*213?>
+                    <File Id="fi_fi_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\fi_FI\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*214?>
+                    <File Id="fi_fi_hints.object_editing.html" Name="object-editing.html" DiskId="1" Source="../..\docs\fi_FI\hints\object-editing.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*215?>
+                    <File Id="fi_fi_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\fi_FI\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*216?>
+                    <File Id="fi_fi_hints.saving_passwords.html" Name="saving-passwords.html" DiskId="1" Source="../..\docs\fi_FI\hints\saving-passwords.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*217?>
+                    <File Id="fi_fi_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\fi_FI\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*218?>
+                    <File Id="fi_fi_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\fi_FI\hints\view-without-pk.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*222?>
+              <Directory Id="fr_frDocsDir" Name="fr_FR">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*223?>
+                <Component Id="fr_fr_docs" Guid="{954B9662-8BB5-4D0F-828D-34AA9A45FC8D}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*224?>
+                  <File Id="fr_fr_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\fr_FR\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*226?>
+                <Directory Id="fr_frHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*227?>
+                  <Component Id="fr_fr_hints" Guid="{4FFC7605-008C-4EAF-872A-F1A6C2E36E27}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*228?>
+                    <File Id="fr_fr_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\fr_FR\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*229?>
+                    <File Id="fr_fr_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\fr_FR\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*230?>
+                    <File Id="fr_fr_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\fr_FR\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*231?>
+                    <File Id="fr_fr_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\fr_FR\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*232?>
+                    <File Id="fr_fr_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\fr_FR\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*233?>
+                    <File Id="fr_fr_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\fr_FR\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*234?>
+                    <File Id="fr_fr_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\fr_FR\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*235?>
+                    <File Id="fr_fr_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\fr_FR\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*236?>
+                    <File Id="fr_fr_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\fr_FR\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*237?>
+                    <File Id="fr_fr_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\fr_FR\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*238?>
+                    <File Id="fr_fr_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\fr_FR\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*239?>
+                    <File Id="fr_fr_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\fr_FR\hints\view-without-pk.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*243?>
+              <Directory Id="sl_siDocsDir" Name="sl_SI">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*244?>
+                <Component Id="sl_si_docs" Guid="{015A944F-9D11-4F1A-A141-643AB3CB092D}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*245?>
+                  <File Id="sl_si_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\sl_SI\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*247?>
+                <Directory Id="sl_siHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*248?>
+                  <Component Id="sl_si_hints" Guid="{EB81C166-D677-4B7C-97CE-332AA1BAAFCC}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*249?>
+                    <File Id="sl_si_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\sl_SI\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*250?>
+                    <File Id="sl_si_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\sl_SI\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*251?>
+                    <File Id="sl_si_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\sl_SI\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*252?>
+                    <File Id="sl_si_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\sl_SI\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*253?>
+                    <File Id="sl_si_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\sl_SI\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*254?>
+                    <File Id="sl_si_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\sl_SI\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*255?>
+                    <File Id="sl_si_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\sl_SI\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*256?>
+                    <File Id="sl_si_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\sl_SI\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*257?>
+                    <File Id="sl_si_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\sl_SI\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*258?>
+                    <File Id="sl_si_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\sl_SI\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*259?>
+                    <File Id="sl_si_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\sl_SI\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*260?>
+                    <File Id="sl_si_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\sl_SI\hints\view-without-pk.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*264?>
+              <Directory Id="zh_cnDocsDir" Name="zh_CN">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*265?>
+                <Component Id="zh_cn_docs" Guid="{FD8AA882-BF71-4AFA-9061-3F41274EDA3D}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*266?>
+                  <File Id="zh_cn_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\zh_CN\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*268?>
+                <Directory Id="zh_cnHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*269?>
+                  <Component Id="zh_cn_hints" Guid="{0F18C2A9-C910-4197-B582-8A246E4C58EB}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*270?>
+                    <File Id="zh_cn_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\zh_CN\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*271?>
+                    <File Id="zh_cn_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\zh_CN\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*272?>
+                    <File Id="zh_cn_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\zh_CN\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*273?>
+                    <File Id="zh_cn_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\zh_CN\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*274?>
+                    <File Id="zh_cn_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\zh_CN\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*275?>
+                    <File Id="zh_cn_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\zh_CN\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*276?>
+                    <File Id="zh_cn_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\zh_CN\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*277?>
+                    <File Id="zh_cn_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\zh_CN\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*278?>
+                    <File Id="zh_cn_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\zh_CN\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*279?>
+                    <File Id="zh_cn_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\zh_CN\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*280?>
+                    <File Id="zh_cn_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\zh_CN\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*281?>
+                    <File Id="zh_cn_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\zh_CN\hints\view-without-pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*282?>
+                    <File Id="zh_cn_hints.object_editing.html" Name="object-editing.html" DiskId="1" Source="../..\docs\zh_CN\hints\object-editing.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*283?>
+                    <File Id="zh_cn_hints.saving_passwords.html" Name="saving-passwords.html" DiskId="1" Source="../..\docs\zh_CN\hints\saving-passwords.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*287?>
+              <Directory Id="zh_twDocsDir" Name="zh_TW">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*288?>
+                <Component Id="zh_tw_docs" Guid="{30B52A91-9FB5-4FD4-B49C-F5DBFBE8218D}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*289?>
+                  <File Id="zh_tw_docs.pgadmin3.css" Name="pgadmin3.css" DiskId="1" Source="../..\docs\zh_tw\pgadmin3.css" KeyPath="yes" />
+                </Component>
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*291?>
+                <Directory Id="zh_twHintsDir" Name="Hints">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*292?>
+                  <Component Id="zh_tw_hints" Guid="{AC411675-7653-4275-A8FA-A66671ECB57A}">
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*293?>
+                    <File Id="zh_tw_hints.autovacuum.html" Name="autovacuum.html" DiskId="1" Source="../..\docs\zh_TW\hints\autovacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*294?>
+                    <File Id="zh_tw_hints.conn_hba.html" Name="conn-hba.html" DiskId="1" Source="../..\docs\zh_TW\hints\conn-hba.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*295?>
+                    <File Id="zh_tw_hints.conn_ident.html" Name="conn-ident.html" DiskId="1" Source="../..\docs\zh_TW\hints\conn-ident.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*296?>
+                    <File Id="zh_tw_hints.conn_listen.html" Name="conn-listen.html" DiskId="1" Source="../..\docs\zh_TW\hints\conn-listen.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*297?>
+                    <File Id="zh_tw_hints.encoding_ascii.html" Name="encoding-ascii.html" DiskId="1" Source="../..\docs\zh_TW\hints\encoding-ascii.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*298?>
+                    <File Id="zh_tw_hints.encoding_unicode.html" Name="encoding-unicode.html" DiskId="1" Source="../..\docs\zh_TW\hints\encoding-unicode.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*299?>
+                    <File Id="zh_tw_hints.fki.html" Name="fki.html" DiskId="1" Source="../..\docs\zh_TW\hints\fki.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*300?>
+                    <File Id="zh_tw_hints.instrumentation.html" Name="instrumentation.html" DiskId="1" Source="../..\docs\zh_TW\hints\instrumentation.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*301?>
+                    <File Id="zh_tw_hints.multiple.html" Name="multiple.html" DiskId="1" Source="../..\docs\zh_TW\hints\multiple.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*302?>
+                    <File Id="zh_tw_hints.pk.html" Name="pk.html" DiskId="1" Source="../..\docs\zh_TW\hints\pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*303?>
+                    <File Id="zh_tw_hints.vacuum.html" Name="vacuum.html" DiskId="1" Source="../..\docs\zh_TW\hints\vacuum.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*304?>
+                    <File Id="zh_tw_hints.view_without_pk.html" Name="view-without-pk.html" DiskId="1" Source="../..\docs\zh_TW\hints\view-without-pk.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*305?>
+                    <File Id="zh_tw_hints.object_editing.html" Name="object-editing.html" DiskId="1" Source="../..\docs\zh_TW\hints\object-editing.html" />
+                    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*306?>
+                    <File Id="zh_tw_hints.saving_passwords.html" Name="saving-passwords.html" DiskId="1" Source="../..\docs\zh_TW\hints\saving-passwords.html" />
+                  </Component>
+                </Directory>
+              </Directory>
+            </Directory>
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*312?>
+            <Component Id="postgresql_exes" Guid="{9618B648-B4C0-43DD-9946-67BE97E71549}">
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*313?>
+              <File Id="postgresql_exes.psql.exe" Name="psql.exe" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\psql.exe" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*314?>
+              <File Id="postgresql_exes.pg_dump.exe" Name="pg_dump.exe" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\pg_dump.exe" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*315?>
+              <File Id="postgresql_exes.pg_dumpall.exe" Name="pg_dumpall.exe" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\pg_dumpall.exe" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*316?>
+              <File Id="postgresql_exes.pg_restore.exe" Name="pg_restore.exe" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\pg_restore.exe" />
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*317?>
+              <File Id="postgresql_exes.zlib1.dll" Name="zlib1.dll" DiskId="1" Source="C:\Program Files\PostgreSQL\15\bin\zlib1.dll" />
+            </Component>
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*320?>
+            <Directory Id="i18nDir" Name="i18n">
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*321?>
+              <Component Id="pgadmin_il8n" Guid="{FF295673-0EEF-48B8-8797-F0BC051F2BAA}">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*322?>
+                <File Id="pgadmin_il8n.pgadmin3.lng" Name="pgadmin3.lng" DiskId="1" Source="../..\i18n\pgadmin3.lng" />
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*323?>
+                <File Id="pgadmin_il8n.pg_settings.csv" Name="pg_settings.csv" DiskId="1" Source="../..\i18n\pg_settings.csv" />
+              </Component>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*22|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_ca_ES" Name="ca_ES">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*23|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_ca_ES" Guid="{33338D37-2F5C-476C-931A-89A7C0431745}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*24|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_ca_ES.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/ca_ES/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*25|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_ca_ES.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/ca_ES/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*28|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_cs_CZ" Name="cs_CZ">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*29|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_cs_CZ" Guid="{FC82A25C-AC65-4BF9-9D72-ABC2754B4FE9}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*30|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_cs_CZ.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/cs_CZ/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*31|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_cs_CZ.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/cs_CZ/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*40|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_de_DE" Name="de_DE">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*41|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_de_DE" Guid="{819955CC-DD0D-4770-98F8-480D0AD0E577}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*42|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_de_DE.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/de_DE/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*43|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_de_DE.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/de_DE/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*52|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_es_ES" Name="es_ES">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*53|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_es_ES" Guid="{416DC6BD-F585-4CEA-A3ED-CCAC4C09AE19}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*54|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_es_ES.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/es_ES/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*55|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_es_ES.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/es_ES/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*64|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_fr_FR" Name="fr_FR">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*65|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_fr_FR" Guid="{37AA0459-A9F6-45B9-8C45-5B0E5683CEE5}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*66|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_fr_FR.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/fr_FR/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*67|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_fr_FR.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/fr_FR/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*94|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_ja_JP" Name="ja_JP">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*95|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_ja_JP" Guid="{42C30505-A5F8-40E1-BC58-8A55BD22BB26}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*96|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_ja_JP.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/ja_JP/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*97|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_ja_JP.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/ja_JP/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*106|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_lv_LV" Name="lv_LV">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*107|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_lv_LV" Guid="{27CE030C-BEB3-444B-9667-5497FD8628D4}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*108|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_lv_LV.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/lv_LV/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*109|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_lv_LV.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/lv_LV/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*118|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_pl_PL" Name="pl_PL">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*119|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_pl_PL" Guid="{08BA6705-CE76-45A8-BA9C-1DA1525D6BBE}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*120|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_pl_PL.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/pl_PL/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*121|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_pl_PL.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/pl_PL/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*136|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_ru_RU" Name="ru_RU">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*137|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_ru_RU" Guid="{AA463884-B352-440F-8B10-803680032952}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*138|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_ru_RU.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/ru_RU/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*139|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_ru_RU.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/ru_RU/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*154|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_sr_RS" Name="sr_RS">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*155|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_sr_RS" Guid="{F368FD91-B89D-400C-9BD1-FB29DA769991}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*156|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_sr_RS.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/sr_RS/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*157|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_sr_RS.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/sr_RS/wxstd.mo" />
+                </Component>
+              </Directory>
+              <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*166|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+              <Directory Id="i18n_zh_CN" Name="zh_CN">
+                <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*167|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                <Component Id="i18n_zh_CN" Guid="{9FAD6885-298E-41A1-B5E4-87F6832B93A6}">
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*168|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_zh_CN.pgadmin3.mo" Name="pgadmin3.mo" DiskId="1" Source="../../i18n/zh_CN/pgadmin3.mo" />
+                  <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18ndata.wxs*169|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*325?>
+                  <File Id="i18n_zh_CN.wxstd.mo" Name="wxstd.mo" DiskId="1" Source="../../i18n/zh_CN/wxstd.mo" />
+                </Component>
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+      <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*335?>
+      <Directory Id="ProgramMenuFolder" Name="." SourceName="Programs">
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*336?>
+        <Directory Id="SMDir" Name="pgAdmin III 3.0.0.0">
+          <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*337?>
+          <Component Id="smdir" Guid="{4E233EF8-C2CB-4CA7-8FAB-581FCD759A58}">
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*338?>
+            <RegistryValue KeyPath="yes" Type="string" Root="HKCU" Key="Software\pgAdmin III\SMDir Created" Value="y" />
+            <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*339?>
+            <RemoveFolder Id="SMDir" On="uninstall" />
+          </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*355?>
+    <Feature Id="base" Title="pgAdmin III - PostgreSQL Tools" Level="1" Description="Management and administration tools for the PostgreSQL DBMS" Display="expand" ConfigurableDirectory="BASEDIR" AllowAdvertise="no">
+      <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*364?>
+      <Feature Id="pgadmin3" Title="pgAdmin III" Description="The pgAdmin III management and administration console." Display="expand" Level="1">
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*365?>
+        <ComponentRef Id="bibliotecas_externas" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*366?>
+        <MergeRef Id="CRT" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*367?>
+        <ComponentRef Id="pgadmin_exes" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*368?>
+        <ComponentRef Id="inis" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*369?>
+        <ComponentRef Id="plugins.d" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*373?>
+        <ComponentRef Id="cs_cz_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*374?>
+        <ComponentRef Id="cs_cz_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*375?>
+        <ComponentRef Id="de_de_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*376?>
+        <ComponentRef Id="de_de_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*377?>
+        <ComponentRef Id="en_us_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*378?>
+        <ComponentRef Id="en_us_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*379?>
+        <ComponentRef Id="es_es_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*380?>
+        <ComponentRef Id="es_es_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*381?>
+        <ComponentRef Id="fi_fi_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*382?>
+        <ComponentRef Id="fi_fi_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*383?>
+        <ComponentRef Id="fr_fr_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*384?>
+        <ComponentRef Id="fr_fr_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*385?>
+        <ComponentRef Id="sl_si_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*386?>
+        <ComponentRef Id="sl_si_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*387?>
+        <ComponentRef Id="zh_cn_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*388?>
+        <ComponentRef Id="zh_cn_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*389?>
+        <ComponentRef Id="zh_tw_docs" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*390?>
+        <ComponentRef Id="zh_tw_hints" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*391?>
+        <ComponentRef Id="pgadmin_il8n" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*392?>
+        <ComponentRef Id="smdir" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*393?>
+        <Feature Id="postgresql_utilities" Title="PostgreSQL Utilties" Description="PostgreSQL's pg_dump and pg_restore utilties used by pgAdmin III to dump and restore databases." Level="1">
+          <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*394?>
+          <ComponentRef Id="postgresql_exes" />
+        </Feature>
+      </Feature>
+      <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*404?>
+      <Feature Id="i18n" Title="Internationalisation" Description="Multi language support for pgAdmin III applications." Level="1">
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*6|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_ca_ES" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*7|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_cs_CZ" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*9|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_de_DE" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*11|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_es_ES" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*13|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_fr_FR" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*18|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_ja_JP" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*20|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_lv_LV" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*22|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_pl_PL" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*25|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_ru_RU" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*28|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_sr_RS" />
+        <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\i18nrefs.wxs*30|C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*405?>
+        <ComponentRef Id="i18n_zh_CN" />
+      </Feature>
+    </Feature>
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*410?>
+    <Media Id="1" EmbedCab="yes" Cabinet="installer.cab" />
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*423?>
+    <Property Id="WIXUI_INSTALLDIR" Value="BASEDIR" />
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*435?>
+    <UIRef Id="WixUI_FeatureTree" />
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*436?>
+    <WixVariable Id="WixUILicenseRtf" Value="resources/licence.rtf" />
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*437?>
+    <WixVariable Id="WixUIDialogBmp" Value="resources/background.bmp" />
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*438?>
+    <WixVariable Id="WixUIBannerBmp" Value="resources/banner.bmp" />
+    <?ln C:\Users\COMPUTADOR1\AppData\Local\Temp\2\pgadmin3-lts\pkg\win32\src\pgadmin3.wxs*439?>
+    <UI />
+  </Product>
+</Wix>

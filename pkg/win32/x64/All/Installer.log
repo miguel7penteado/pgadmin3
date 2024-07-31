@@ -1,0 +1,23 @@
+﻿  Calling installer build script...
+  
+  Building pgAdmin III Installer...
+  Windows Installer XML Toolset Compiler version 3.11.2.4516
+  Copyright (c) .NET Foundation and contributors. All rights reserved.
+  
+  pgadmin3.wxs
+light.exe : error LGHT0001: Caracteres inválidos no caminho.
+  
+  Exception Type: System.ArgumentException
+  
+  Stack Trace:
+     em System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+     em System.IO.Path.IsPathRooted(String path)
+     em Microsoft.Tools.WindowsInstallerXml.BinderFileManager.ResolveFile(String source, String type, SourceLineNumberCollection sourceLineNumbers, BindStage bindStage)
+     em Microsoft.Tools.WindowsInstallerXml.Binder.ResolveFields(TableCollection tables, Hashtable cabinets, ArrayList delayedFields)
+     em Microsoft.Tools.WindowsInstallerXml.Binder.BindDatabase(Output output, String databaseFile)
+     em Microsoft.Tools.WindowsInstallerXml.Binder.Bind(Output output, String file)
+     em Microsoft.Tools.WindowsInstallerXml.Tools.Light.Run(String[] args)
+  
+  Aborting build!
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(299,5): error MSB3073: O comando "make.bat 3.0.0.0 143 "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Redist\MSVC\14.40.33807\."
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(299,5): error MSB3073: :VCEnd" foi encerrado com o código -1.

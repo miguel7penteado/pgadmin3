@@ -1,0 +1,6 @@
+﻿  Extracting source code repository version
+  'git' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.
+  Not generating svnversion.h, not changed.
+  precomp.cpp
+C:\Users\COMPUTADOR1\Downloads\wxwidgets\1\include\msvc\wx\setup.h(125,10): error C1083: Não é possível abrir arquivo incluir: '../../../lib/vc_dll/mswud/wx/setup.h': No such file or directory

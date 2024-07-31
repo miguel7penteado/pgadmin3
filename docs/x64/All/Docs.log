@@ -1,0 +1,243 @@
+﻿  Calling help build script...
+  [01mRunning Sphinx v7.4.7[39;49;00m
+  [01mloading translations [en]... [39;49;00mdone
+  Converting `source_suffix = '.rst'` to `source_suffix = {'.rst': 'restructuredtext'}`.
+  [01mloading pickled environment... [39;49;00mfailed: source directory has changed
+  done
+  [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+  [01mwriting output... [39;49;00m
+  [01mbuilding [htmlhelp]: [39;49;00mtargets for 54 source files that are out of date
+  [01mupdating environment: [39;49;00m[new config] 54 added, 0 changed, 0 removed
+  [2K[01mreading sources... [39;49;00m[  2%] [35mappendices[39;49;00m
+  [2K[01mreading sources... [39;49;00m[  4%] [35mbackup[39;49;00m
+  [2K[01mreading sources... [39;49;00m[  6%] [35mbugreport[39;49;00m
+  [2K[01mreading sources... [39;49;00m[  7%] [35mcommandline[39;49;00m
+  [2K[01mreading sources... [39;49;00m[  9%] [35mconnect[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 11%] [35mconnect-error[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 13%] [35mcontrol-server[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 15%] [35mdebugger[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 17%] [35mdefault-xsl[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 19%] [35meditgrid[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 20%] [35mexport[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 22%] [35mextend[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 24%] [35mgqb[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 26%] [35mgrantwiz[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 28%] [35mgridopts[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 30%] [35mguruhints[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 31%] [35mindex[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 33%] [35mintroduction[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 35%] [35mkerberos[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 37%] [35mlicence[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 39%] [35mmacros[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 41%] [35mmain[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 43%] [35mmaintenance[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 44%] [35mopenssl[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 46%] [35moptions[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 48%] [35moptions-browser[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 50%] [35moptions-database_designer[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 52%] [35moptions-miscellaneous[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 54%] [35moptions-query_tool[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 56%] [35moptions-server_status[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 57%] [35mpassword[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 59%] [35mpgagent[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 61%] [35mpgagent-install[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 63%] [35mpgagent-jobs[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 65%] [35mpgagent-schedules[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 67%] [35mpgagent-steps[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 69%] [35mpgscript[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 70%] [35mquery[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 72%] [35mreports[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 74%] [35mrestore[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 76%] [35msample-xml[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 78%] [35msearch_object[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 80%] [35mslony[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 81%] [35mslony-example[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 83%] [35mslony-execute[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 85%] [35mslony-functions[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 87%] [35mslony-install[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 89%] [35mslony-overview[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 91%] [35mslony-path[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 93%] [35mslony-set[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 94%] [35mstatus[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 96%] [35mteam[39;49;00m
+  [2K[01mreading sources... [39;49;00m[ 98%] [35mtranslation_team[39;49;00m
+  [2K[01mreading sources... [39;49;00m[100%] [35musing[39;49;00m
+  
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\backup.rst:31: WARNING: image file not readable: imagesbackup.png[39;49;00m
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\backup.rst:43: WARNING: image file not readable: imagesbackup-2.png[39;49;00m
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\backup.rst:68: WARNING: image file not readable: imagesbackup-3.png[39;49;00m
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\backup.rst:93: WARNING: image file not readable: imagesbackup-4.png[39;49;00m
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\backup.rst:99: WARNING: image file not readable: imagesbackup-5.png[39;49;00m
+  [31mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\bugreport.rst:11: ERROR: Unknown target name: "faqs <http:\www.pgadmin.orgpgadmin3faq>".[39;49;00m
+  [31mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\bugreport.rst:14: ERROR: Unknown target name: "website <http:\www.postgresql.orgftppgadmin3release>".[39;49;00m
+  [31mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\bugreport.rst:19: ERROR: Unknown target name: "support mailing list <http:\archives.postgresql.orgpgadmin-support>".[39;49;00m
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\connect.rst:8: WARNING: image file not readable: imagesserver.png[39;49;00m
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\connect-error.rst:20: WARNING: image file not readable: imagesnot-running.png[39;49;00m
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\connect-error.rst:43: WARNING: image file not readable: imagesno-hba.png[39;49;00m
+  [31mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\debugger.rst:17: ERROR: Unknown target name: "pgfoundry <http:\pgfoundry.orgprojectsedb-debugger>".[39;49;00m
+  [01mlooking for now-outdated files... [39;49;00mnone found
+  [91mC:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\debugger.rst:8: WARNING: image file not readable: imagesdebugger.png[39;49;00m
+  [01mpickling environment... [39;49;00mdone
+  [01mchecking consistency... [39;49;00mdone
+  [01mpreparing documents... [39;49;00mdone
+  [01mcopying assets... [39;49;00m
+  [01mcopying static files... [39;49;00mdone
+  [01mcopying extra files... [39;49;00mdone
+  [01mcopying assets: [39;49;00mdone
+  [2K[01mwriting output... [39;49;00m[  2%] [32mappendices[39;49;00m
+  [2K[01mwriting output... [39;49;00m[  4%] [32mbackup[39;49;00m
+  [2K[01mwriting output... [39;49;00m[  6%] [32mbugreport[39;49;00m
+  [2K[01mwriting output... [39;49;00m[  7%] [32mcommandline[39;49;00m
+  [2K[01mwriting output... [39;49;00m[  9%] [32mconnect[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 11%] [32mconnect-error[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 13%] [32mcontrol-server[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 15%] [32mdebugger[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 17%] [32mdefault-xsl[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 19%] [32meditgrid[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 20%] [32mexport[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 22%] [32mextend[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 24%] [32mgqb[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 26%] [32mgrantwiz[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 28%] [32mgridopts[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 30%] [32mguruhints[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 31%] [32mindex[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 33%] [32mintroduction[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 35%] [32mkerberos[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 37%] [32mlicence[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 39%] [32mmacros[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 41%] [32mmain[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 43%] [32mmaintenance[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 44%] [32mopenssl[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 46%] [32moptions[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 48%] [32moptions-browser[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 50%] [32moptions-database_designer[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 52%] [32moptions-miscellaneous[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 54%] [32moptions-query_tool[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 56%] [32moptions-server_status[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 57%] [32mpassword[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 59%] [32mpgagent[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 61%] [32mpgagent-install[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 63%] [32mpgagent-jobs[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 65%] [32mpgagent-schedules[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 67%] [32mpgagent-steps[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 69%] [32mpgscript[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 70%] [32mquery[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 72%] [32mreports[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 74%] [32mrestore[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 76%] [32msample-xml[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 78%] [32msearch_object[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 80%] [32mslony[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 81%] [32mslony-example[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 83%] [32mslony-execute[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 85%] [32mslony-functions[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 87%] [32mslony-install[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 89%] [32mslony-overview[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 91%] [32mslony-path[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 93%] [32mslony-set[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 94%] [32mstatus[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 96%] [32mteam[39;49;00m
+  [2K[01mwriting output... [39;49;00m[ 98%] [32mtranslation_team[39;49;00m
+  [2K[01mwriting output... [39;49;00m[100%] [32musing[39;49;00m
+  
+  [01mgenerating indices... [39;49;00mgenindex done
+  [01mwriting additional pages... [39;49;00mdone
+  [2K[01mcopying images... [39;49;00m[  2%] [33mimages/editgrid.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[  3%] [33mimages/export.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[  5%] [33mimages/gqb.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[  7%] [33mimages/grantwiz.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[  8%] [33mimages/gridopt-sort.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 10%] [33mimages/gridopt-filter.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 11%] [33mimages/guru-connect.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 13%] [33mimages/manage-macros.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 15%] [33mimages/main.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 16%] [33mimages/maintenance.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 18%] [33mimages/options.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 20%] [33mimages/options-display.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 21%] [33mimages/options-properties.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 23%] [33mimages/options-binary_paths.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 25%] [33mimages/options-ui_miscellaneous.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 26%] [33mimages/options-database_designer.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 28%] [33mimages/options-user_interface.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 30%] [33mimages/options-help_paths.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 31%] [33mimages/options-guru_hints.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 33%] [33mimages/options-logging.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 34%] [33mimages/options-query_editor.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 36%] [33mimages/options-colours.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 38%] [33mimages/options-results_grid.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 39%] [33mimages/options-query_file.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 41%] [33mimages/options-favourites.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 43%] [33mimages/options-macros.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 44%] [33mimages/options-history_file.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 46%] [33mimages/options-server_status.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 48%] [33mimages/password.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 49%] [33mimages/pgagent-jobdetails.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 51%] [33mimages/pgagent-jobstats.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 52%] [33mimages/pgagent-jobproperties.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 54%] [33mimages/pgagent-scheduleproperties.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 56%] [33mimages/pgagent-scheduledetails1.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 57%] [33mimages/pgagent-scheduledetails2.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 59%] [33mimages/pgagent-scheduledetails3.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 61%] [33mimages/pgagent-stepstats.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 62%] [33mimages/pgagent-stepdetails.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 64%] [33mimages/query.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 66%] [33mimages/query-analyze.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 67%] [33mimages/query-connect.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 69%] [33mimages/reporttool-html.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 70%] [33mimages/reporttool-xml.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 72%] [33mimages/restore.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 74%] [33mimages/restore-2.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 75%] [33mimages/restore-3.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 77%] [33mimages/restore-4.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 79%] [33mimages/restore-5.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 80%] [33mimages/search.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 82%] [33mimages/slony-execute.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 84%] [33mimages/slony-create.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 85%] [33mimages/slony-join.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 87%] [33mimages/slony-upgrade.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 89%] [33mimages/slony-overview.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 90%] [33mimages/slony-path.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 92%] [33mimages/slony-listen.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 93%] [33mimages/slony-set.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 95%] [33mimages/slony-table.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 97%] [33mimages/slony-sequence.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[ 98%] [33mimages/slony-subscription.png[39;49;00m
+  [2K[01mcopying images... [39;49;00m[100%] [33mimages/status.png[39;49;00m
+  
+  [01mcopying stopword list... [39;49;00mdone
+  [01mwriting project file... [39;49;00mdone
+  [01mwriting TOC file... [39;49;00mdone
+  writing index file...
+  [01mbuild succeeded, 13 warnings.[39;49;00m
+  
+  You can now run HTML Help Workshop with the .htp file in _build\htmlhelp.
+  
+  Build finished; now you can run HTML Help Workshop with the .hhp project file in _build/htmlhelp.
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\_build\htmlhelp\pgadmin3.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 3 seconds
+  
+  175	Topics
+  
+  1,283	Local links
+  
+  26	Internet links
+  
+  61	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\COMPUTADOR1\AppData\Local\Temp\1\pgadmin3-lts\docs\en_US\_build\htmlhelp\pgadmin3.chm, 3,414,546 bytes
+  
+  Compression decreased file by 666,493 bytes.
+  
+  Processing ./en_US/_build/htmlhelp/pgadmin3.hhp...
