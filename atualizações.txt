@@ -1,0 +1,41 @@
+Os arquivos que foram atualizados desde 2015 para suportar, principalmente, a nova versão das bibliotecas wxWidgets
+O principal responsável por essas atualizações é o sr Abdu Yadi https://github.com/AbdulYadi/pgadmin3
+Contudo, o sr Yadi eliminou algumas macros para suporte a OpenSSL que resolvi restituir, segundo a versão original.
+
+pgadmin\ctl\ctlDefaultSecurityPanel.cpp                      
+pgadmin\ctl\ctlSQLGrid.cpp                                   
+pgadmin\ctl\ctlSeclabelPanel.cpp                             
+pgadmin\ctl\ctlSecurityPanel.cpp                             
+pgadmin\ctl\explainCanvas.cpp                                
+pgadmin\ctl\explainShape.cpp                                 
+pgadmin\db\pgSet.cpp                                         
+pgadmin\dd\dditems\figures\ddColumnKindIcon.cpp              
+pgadmin\dd\dditems\figures\ddRelationshipFigure.cpp          
+pgadmin\dd\dditems\figures\ddTableFigure.cpp                 
+pgadmin\dd\ddmodel\ddGenerationWizard.cpp                    
+pgadmin\debugger\dlgDirectDbg.cpp                            
+pgadmin\debugger\frmDebugger.cpp                             
+pgadmin\dlg\dlgMainConfig.cpp                                
+pgadmin\frm\frmEditGrid.cpp                                  
+pgadmin\frm\frmQuery.cpp                                     
+pgadmin\gqb\gqbGraphSimple.cpp                               
+pgadmin\gqb\gqbGridRestTable.cpp                             
+pgadmin\gqb\gqbViewPanels.cpp                                
+pgadmin\hotdraw\figures\defaultAttributes\hdFontAttribute.cpp
+pgadmin\hotdraw\figures\hdAbstractFigure.cpp                 
+pgadmin\hotdraw\figures\hdLineTerminal.cpp                   
+pgadmin\hotdraw\figures\hdPolyLineFigure.cpp                 
+pgadmin\hotdraw\main\hdDrawingView.cpp                       
+pgadmin\include\svnversion.h                                 
+pgadmin\ogl\basic.cpp                                        
+pgadmin\ogl\basic2.cpp                                       
+pgadmin\ogl\canvas.cpp                                       
+pgadmin\ogl\composit.cpp                                     
+pgadmin\ogl\divided.cpp                                      
+pgadmin\ogl\drawn.cpp                                        
+pgadmin\ogl\lines.cpp                                        
+pgadmin\ogl\mfutils.cpp                                      
+pgadmin\ogl\ogldiag.cpp                                      
+pgadmin\ogl\oglmisc.cpp                                      
+pgadmin\pgAdmin3.cpp                                         
+pgadmin\utils\sysSettings.cpp                                
